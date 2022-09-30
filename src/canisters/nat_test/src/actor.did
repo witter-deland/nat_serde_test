@@ -1,0 +1,5 @@
+type TestRequest = record { num_req : nat };
+type TestResponse = record { num_res : nat };
+service : () -> {
+  test : (TestRequest) -> (TestResponse) query
+}

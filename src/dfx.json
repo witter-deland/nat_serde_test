@@ -1,17 +1,21 @@
 {
-    "canisters": {
-    },
-    "defaults": {
-      "build": {
-        "packtool": ""
-      }
-    },
-    "networks": {
-      "local": {
-        "bind": "127.0.0.1:8000",
-        "type": "ephemeral"
-      }
-    },
-    "version": 1
-  }
-  
+  "canisters": {
+    "nat_test": {
+      "type": "rust",
+      "package": "nat_test",
+      "candid": "canisters/nat_test/src/actor.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

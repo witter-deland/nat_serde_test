@@ -4,7 +4,7 @@ members = [
     "common/test_common",
     "common/build_common",
     "common/common_actor",
-    "canisters/api_mock_canister",
+    "canisters/nat_test",
 ]
 
 [profile.release]

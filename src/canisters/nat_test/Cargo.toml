@@ -1,5 +1,5 @@
 [package]
-name = "api_mock_canister"
+name = "nat_test"
 version = "0.1.0"
 edition = "2021"
 
@@ -16,6 +16,8 @@ log = "0.4"
 common = { path = "../../common/common"}
 thiserror = "1.0"
 anyhow = "1.0.57"
+num-bigint =  {version = "0.4.3", features = ["serde"] }
+num-traits = "0.2.15"
 
 [dev-dependencies]
 test_common = { path = "../../common/test_common" }
